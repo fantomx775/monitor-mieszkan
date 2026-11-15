@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-08",
+  "officialSources": {
+    "faq": "https://developer.olx.pl/articles/faq",
+    "apiDoc": "https://developer.olx.pl/api/doc",
+    "robots": "https://www.olx.pl/robots.txt",
+    "currentTerms": "https://pomoc.olx.pl/olxplhelp/s/article/aktualny-regulamin-V32-olx",
+    "termsArchive": "https://pomoc.olx.pl/olxplhelp/s/topic/0TO09000000kfhvGAA/archiwum-zmian-regulaminu"
+  },
+  "partnerApiCanReadOtherUsersOffers": false,
+  "partnerApiAdvertListUsesOwnerContext": true,
+  "partnerApiSupportsOffsetLimit": true,
+  "robotsDisallowsApiByDefault": true,
+  "robotsDisallowsGraphqlPath": false,
+  "robotsApiExceptions": [
+    "/api/v1/offers/",
+    "/api/v1/targeting/",
+    "/api/v1/friendly-links/"
+  ],
+  "latestTermsFoundInArchive": "2026-08-17",
+  "latestServiceTermsFullyReviewed": false,
+  "automationPermissionForPublicOffersConfirmed": false,
+  "decision": "LIVE_PARTIAL_TECHNICAL_PROBE",
+  "graphqlProbe": {
+    "endpointPath": "/apigateway/graphql",
+    "method": "POST",
+    "statusCodes": [200, 200, 200],
+    "offsets": [0, 40, 39],
+    "recordsReturned": [51, 45, 48],
+    "nextOffsets": [39, 80, 79],
+    "reportedTotal": 966,
+    "requiredTopLevelFieldsMissing": 0,
+    "challengesObserved": false,
+    "recordsPersisted": false
+  }
+}
